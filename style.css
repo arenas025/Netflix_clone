@@ -50,7 +50,7 @@ main{
     width: 400px;
     height: 500px;
     background-color:  black;
-    opacity: 80%;
+    opacity: 70%;
     border-radius: 20px;
     color:white;
     z-index: 1;
@@ -64,5 +64,142 @@ main{
     position: absolute;
     color: white;
     left: 38%;
-    top: 20%;
+    top: 25%;
+}
+
+.forms{
+    position: absolute;
+    width: 318px;
+    height: 200px;
+    z-index: 3;
+    top: 35%;
+    display: flex;
+}
+
+.email{
+    display: flex;
+    padding-left: 10px;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    z-index: 4;
+    background-color:  #5c5c5c;
+    height: 60px;
+    width: 318px;
+    border-radius: 5px;
+}
+
+#emailf{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    background-color: #5c5c5c;
+    border: 0;
+    color: white;
+    font-size: 15px;
+}
+
+#emailf::placeholder{
+    color:#8a8a8a
+    ;
+    font-size: 16px;
+    left: 50px;
+}
+
+.password{
+    display: flex;
+    padding-left: 10px;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    z-index: 4;
+    background-color:  #5c5c5c;
+    height: 60px;
+    width: 318px;
+    border-radius: 5px;
+    bottom: 50px;
+}
+
+#password{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    background-color: #5c5c5c;
+    border: 0;
+    color: white;
+    font-size: 15px;
+}
+
+#password::placeholder{
+    color:#8a8a8a
+    ;
+    font-size: 16px;
+    left: 50px;
+}
+
+.submit{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    height: 60px;
+    width: 318px;
+    border-radius: 5px;
+    bottom: -30%;
+}
+
+.submit button{
+    left: 0px;
+    height: 60px;
+    width: 318px;
+    border-radius: 5px;
+    background-color:#e50914 ;
+    outline: none;
+    border: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.submit button:hover{
+    background-color: black;;
+}
+
+.submit button a{
+    text-decoration: none;
+    color: white;
+}
+
+.submit button a:hover{
+    color: #e50914
+}
+
+.text{
+    display: flex;
+
+    width: 318px;
+    z-index: 6;
+    height: 30px;
+    position: absolute;
+    top:270px;
+}
+
+.text p{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.text a{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    right: 0px;
+    position: absolute;
+}
+
+
+.text a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:underline;
 }
