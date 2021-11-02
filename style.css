@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header_1{
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1280px-Netflix_2015_logo.svg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:contain;
+    margin: 20px;
+}
+
+body{
+    display: flex;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/b77751c7-0e02-4941-af39-30514ff6b3e2/77b7907b-371e-4ed8-adc0-2c7fb5e12d72/CO-en-20211026-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+main{
+    margin-top: 80px;
+    height: 496px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    background-color:  black;
+    opacity: 80%;
+    border-radius: 20px;
+    color:white;
+    z-index: 1;
+}
+
+.sign{
+    z-index: 2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 600px;
+    position: absolute;
+    color: white;
+    left: 38%;
+    top: 20%;
+}
